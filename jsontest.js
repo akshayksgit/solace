@@ -12,7 +12,7 @@ fs.readFile("akshay.txt", function(err,txtdata){
 fs.readFile("test.html", function(err,htmldata){
 	if(err) throw err;
 	console.log('\n html file content')
-	console.log(htmldata);
+	console.log(htmldata.toString());
 });
 
 
